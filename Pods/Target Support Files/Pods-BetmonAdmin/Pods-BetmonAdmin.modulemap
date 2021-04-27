@@ -1,0 +1,6 @@
+framework module Pods_BetmonAdmin {
+  umbrella header "Pods-BetmonAdmin-umbrella.h"
+
+  export *
+  module * { export * }
+}

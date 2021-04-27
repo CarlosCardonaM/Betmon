@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163EEE55CFF08CC5F8D518D4 /* Pods_BetmonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B3B6D93CADB6E7141F03F2 /* Pods_BetmonApp.framework */; };
 		484EE8E22638AAAA00B9732A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE8E12638AAAA00B9732A /* AppDelegate.swift */; };
 		484EE8E42638AAAA00B9732A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE8E32638AAAA00B9732A /* SceneDelegate.swift */; };
 		484EE8E62638AAAA00B9732A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE8E52638AAAA00B9732A /* ViewController.swift */; };
 		484EE8E92638AAAA00B9732A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484EE8E72638AAAA00B9732A /* Main.storyboard */; };
 		484EE8EB2638AAAE00B9732A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484EE8EA2638AAAE00B9732A /* Assets.xcassets */; };
 		484EE8EE2638AAAE00B9732A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484EE8EC2638AAAE00B9732A /* LaunchScreen.storyboard */; };
+		484EE9322638AEED00B9732A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE9312638AEED00B9732A /* AppDelegate.swift */; };
+		484EE9342638AEED00B9732A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE9332638AEED00B9732A /* SceneDelegate.swift */; };
+		484EE9362638AEED00B9732A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EE9352638AEED00B9732A /* ViewController.swift */; };
+		484EE9392638AEED00B9732A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484EE9372638AEED00B9732A /* Main.storyboard */; };
+		484EE93B2638AEF200B9732A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484EE93A2638AEF200B9732A /* Assets.xcassets */; };
+		484EE93E2638AEF200B9732A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484EE93C2638AEF200B9732A /* LaunchScreen.storyboard */; };
+		8238D48A1346BB12FADB34DC /* Pods_BetmonAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6181617D06472026441D507 /* Pods_BetmonAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27B3B6D93CADB6E7141F03F2 /* Pods_BetmonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetmonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484EE8DE2638AAAA00B9732A /* BetmonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetmonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484EE8E12638AAAA00B9732A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		484EE8E32638AAAA00B9732A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,19 @@
 		484EE8EA2638AAAE00B9732A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		484EE8ED2638AAAE00B9732A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484EE8EF2638AAAE00B9732A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484EE92F2638AEED00B9732A /* BetmonAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetmonAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484EE9312638AEED00B9732A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		484EE9332638AEED00B9732A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		484EE9352638AEED00B9732A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		484EE9382638AEED00B9732A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484EE93A2638AEF200B9732A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484EE93D2638AEF200B9732A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484EE93F2638AEF200B9732A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881FB19C24752095A911E424 /* Pods-BetmonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetmonApp.release.xcconfig"; path = "Target Support Files/Pods-BetmonApp/Pods-BetmonApp.release.xcconfig"; sourceTree = "<group>"; };
+		A776474B0D7D8E0B7BF4FE8B /* Pods-BetmonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetmonApp.debug.xcconfig"; path = "Target Support Files/Pods-BetmonApp/Pods-BetmonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C72087D4213D7E34169F87 /* Pods-BetmonAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetmonAdmin.release.xcconfig"; path = "Target Support Files/Pods-BetmonAdmin/Pods-BetmonAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		BBE134D52CA3866E03E889B0 /* Pods-BetmonAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetmonAdmin.debug.xcconfig"; path = "Target Support Files/Pods-BetmonAdmin/Pods-BetmonAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		F6181617D06472026441D507 /* Pods_BetmonAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetmonAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163EEE55CFF08CC5F8D518D4 /* Pods_BetmonApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484EE92C2638AEED00B9732A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8238D48A1346BB12FADB34DC /* Pods_BetmonAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				484EE8E02638AAAA00B9732A /* BetmonApp */,
+				484EE9302638AEED00B9732A /* BetmonAdmin */,
 				484EE8DF2638AAAA00B9732A /* Products */,
+				F13635EC1DDA242938FA630D /* Pods */,
+				9005F860818DF1B3824A5FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				484EE8DE2638AAAA00B9732A /* BetmonApp.app */,
+				484EE92F2638AEED00B9732A /* BetmonAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +102,40 @@
 			path = BetmonApp;
 			sourceTree = "<group>";
 		};
+		484EE9302638AEED00B9732A /* BetmonAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				484EE9312638AEED00B9732A /* AppDelegate.swift */,
+				484EE9332638AEED00B9732A /* SceneDelegate.swift */,
+				484EE9352638AEED00B9732A /* ViewController.swift */,
+				484EE9372638AEED00B9732A /* Main.storyboard */,
+				484EE93A2638AEF200B9732A /* Assets.xcassets */,
+				484EE93C2638AEF200B9732A /* LaunchScreen.storyboard */,
+				484EE93F2638AEF200B9732A /* Info.plist */,
+			);
+			path = BetmonAdmin;
+			sourceTree = "<group>";
+		};
+		9005F860818DF1B3824A5FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B3B6D93CADB6E7141F03F2 /* Pods_BetmonApp.framework */,
+				F6181617D06472026441D507 /* Pods_BetmonAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13635EC1DDA242938FA630D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A776474B0D7D8E0B7BF4FE8B /* Pods-BetmonApp.debug.xcconfig */,
+				881FB19C24752095A911E424 /* Pods-BetmonApp.release.xcconfig */,
+				BBE134D52CA3866E03E889B0 /* Pods-BetmonAdmin.debug.xcconfig */,
+				B3C72087D4213D7E34169F87 /* Pods-BetmonAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 484EE8F22638AAAE00B9732A /* Build configuration list for PBXNativeTarget "BetmonApp" */;
 			buildPhases = (
+				C5BFE4EAF6F281D88E01FB43 /* [CP] Check Pods Manifest.lock */,
 				484EE8DA2638AAAA00B9732A /* Sources */,
 				484EE8DB2638AAAA00B9732A /* Frameworks */,
 				484EE8DC2638AAAA00B9732A /* Resources */,
+				2939E54B67D6C05BA6129D6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -85,6 +156,25 @@
 			name = BetmonApp;
 			productName = BetmonApp;
 			productReference = 484EE8DE2638AAAA00B9732A /* BetmonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484EE92E2638AEED00B9732A /* BetmonAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484EE9402638AEF200B9732A /* Build configuration list for PBXNativeTarget "BetmonAdmin" */;
+			buildPhases = (
+				568072A43C7BC1FC62C4D427 /* [CP] Check Pods Manifest.lock */,
+				484EE92B2638AEED00B9732A /* Sources */,
+				484EE92C2638AEED00B9732A /* Frameworks */,
+				484EE92D2638AEED00B9732A /* Resources */,
+				A6E7DB95F148427961112BD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetmonAdmin;
+			productName = BetmonAdmin;
+			productReference = 484EE92F2638AEED00B9732A /* BetmonAdmin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,6 +187,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					484EE8DD2638AAAA00B9732A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					484EE92E2638AEED00B9732A = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -115,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				484EE8DD2638AAAA00B9732A /* BetmonApp */,
+				484EE92E2638AEED00B9732A /* BetmonAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +224,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		484EE92D2638AEED00B9732A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484EE93E2638AEF200B9732A /* LaunchScreen.storyboard in Resources */,
+				484EE93B2638AEF200B9732A /* Assets.xcassets in Resources */,
+				484EE9392638AEED00B9732A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2939E54B67D6C05BA6129D6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetmonApp/Pods-BetmonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetmonApp/Pods-BetmonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetmonApp/Pods-BetmonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568072A43C7BC1FC62C4D427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetmonAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E7DB95F148427961112BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetmonAdmin/Pods-BetmonAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetmonAdmin/Pods-BetmonAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetmonAdmin/Pods-BetmonAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BFE4EAF6F281D88E01FB43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetmonApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		484EE8DA2638AAAA00B9732A /* Sources */ = {
@@ -140,6 +325,16 @@
 				484EE8E62638AAAA00B9732A /* ViewController.swift in Sources */,
 				484EE8E22638AAAA00B9732A /* AppDelegate.swift in Sources */,
 				484EE8E42638AAAA00B9732A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484EE92B2638AEED00B9732A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484EE9362638AEED00B9732A /* ViewController.swift in Sources */,
+				484EE9322638AEED00B9732A /* AppDelegate.swift in Sources */,
+				484EE9342638AEED00B9732A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +353,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				484EE8ED2638AAAE00B9732A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		484EE9372638AEED00B9732A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484EE9382638AEED00B9732A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484EE93C2638AEF200B9732A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484EE93D2638AEF200B9732A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -283,6 +494,7 @@
 		};
 		484EE8F32638AAAE00B9732A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A776474B0D7D8E0B7BF4FE8B /* Pods-BetmonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +514,7 @@
 		};
 		484EE8F42638AAAE00B9732A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881FB19C24752095A911E424 /* Pods-BetmonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +526,46 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-carlosecardonam1.BetmonApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484EE9412638AEF200B9732A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE134D52CA3866E03E889B0 /* Pods-BetmonAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28Y3AJZ4MW;
+				INFOPLIST_FILE = BetmonAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-carlosecardonam1.BetmonAdmin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484EE9422638AEF200B9732A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C72087D4213D7E34169F87 /* Pods-BetmonAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28Y3AJZ4MW;
+				INFOPLIST_FILE = BetmonAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-carlosecardonam1.BetmonAdmin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,6 +589,15 @@
 			buildConfigurations = (
 				484EE8F32638AAAE00B9732A /* Debug */,
 				484EE8F42638AAAE00B9732A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484EE9402638AEF200B9732A /* Build configuration list for PBXNativeTarget "BetmonAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484EE9412638AEF200B9732A /* Debug */,
+				484EE9422638AEF200B9732A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
